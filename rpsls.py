@@ -40,3 +40,28 @@ def number_to_name(number):
 		print "Invalid numebr"
 	return -2
 
+
+# the main function
+def rpsls(player_choice):
+	print ""
+	print "You can choose one of the following: rock, Spock, paper, lizard, scissors."
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
