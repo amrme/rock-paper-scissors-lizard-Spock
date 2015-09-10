@@ -63,7 +63,12 @@ def rpsls(player_choice):
         print "You both tie!"
 
 
-
+# test 
+rpsls("rock")
+rpsls("Spock")
+rpsls("paper")
+rpsls("lizard")
+rpsls("scissors")
 
 
 
