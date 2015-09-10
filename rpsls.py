@@ -74,7 +74,7 @@ rpsls("lizard")
 rpsls("scissors")
 
 
-
+# submission link: http://www.codeskulptor.org/#user40_77e4CF2LWH_2.py
 
 
 
