@@ -48,11 +48,19 @@ def rpsls(player_choice):
 	print "You can choose one of the following: rock, Spock, paper, lizard, scissors."
 	player_number = name_to_number(player_choice)
 
-	# logic part (computer's choice)
+	# computer's choice and processing
 	comp_number = random.randrange(0, 4, 1)
 	comp_choice = number_to_name(comp_number)
 	print "Computer chose", comp_choice
-	
+
+	# logic
+	result = (comp_number - player_number) % 5
+	if (result == 1 or result == 2):
+        print "Computer is the winner!"
+    elif (result == 3 or result == 4):
+        print "You win!"
+    else:
+        print "You both tie!"
 
 
 
