@@ -43,10 +43,16 @@ def number_to_name(number):
 
 # the main function
 def rpsls(player_choice):
+	# user's choice and processing 
 	print ""
 	print "You can choose one of the following: rock, Spock, paper, lizard, scissors."
-	
+	player_number = name_to_number(player_choice)
 
+	# logic part (computer's choice)
+	comp_number = random.randrange(0, 4, 1)
+	comp_choice = number_to_name(comp_number)
+	print "Computer chose", comp_choice
+	
 
 
 
