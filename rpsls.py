@@ -59,11 +59,11 @@ def rpsls(player_choice):
     # logic
     result = (comp_number - player_number) % 5
     if (result == 1 or result == 2):
-        print "Computer is the winner!"
+        print "Computer wins!"
     elif (result == 3 or result == 4):
-        print "You win!"
+        print "Player wins!"
     else:
-        print "You both tie!"
+        print "Player and computer tie!"
 
 
 # test 
